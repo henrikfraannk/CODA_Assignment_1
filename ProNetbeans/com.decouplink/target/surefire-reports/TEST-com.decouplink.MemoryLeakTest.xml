@@ -2,6 +2,7 @@
 <testsuite name="com.decouplink.MemoryLeakTest" time="0" tests="1" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="netbeans.run.params.debug" value="-J-Dnetbeans.patches.com.decouplink.decouplink=/Users/henrikfrank/NetBeansProjects/SB4-KOM-F15-master-solution/ProNetbeans/com.decouplink/target/classes -J-Dnetbeans.patches.dk.sdu.mmmi.cbse.SilentUpdate=/Users/henrikfrank/NetBeansProjects/SB4-KOM-F15-master-solution/ProNetbeans/SilentUpdate/target/classes"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.31-b07"/>
     <property name="gopherProxySet" value="false"/>
@@ -43,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/Applications/NetBeans/NetBeans 8.0.2.app/Contents/Resources/NetBeans/java/maven-nblib/netbeans-eventspy.jar clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dnetbeans.run.params.debug=-J-Dnetbeans.patches.com.decouplink.decouplink=/Users/henrikfrank/NetBeansProjects/SB4-KOM-F15-master-solution/ProNetbeans/com.decouplink/target/classes -J-Dnetbeans.patches.dk.sdu.mmmi.cbse.SilentUpdate=/Users/henrikfrank/NetBeansProjects/SB4-KOM-F15-master-solution/ProNetbeans/SilentUpdate/target/classes -Dmaven.ext.class.path=/Applications/NetBeans/NetBeans 8.0.2.app/Contents/Resources/NetBeans/java/maven-nblib/netbeans-eventspy.jar --also-make --projects application -Pdeployment install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="da"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>

@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 OpenIDE-Module-Install: dk/sdu/mmmi/cbse/core/Installer.class
 OpenIDE-Module-Specification-Version: 1.0
 OpenIDE-Module-Implementation-Version: 1.0-20150406
-OpenIDE-Module-Build-Version: 201504061558
+OpenIDE-Module-Build-Version: 201504061830
 OpenIDE-Module: dk.sdu.mmmi.cbse.Core
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
@@ -36,8 +36,6 @@ Maven-Class-Path: com.googlecode.playn:playn-java:1.9 org.lwjgl.lwjgl:
 OpenIDE-Module-Module-Dependencies: org.openide.modules > 7.42.1, org.
  openide.util.lookup > 8.24.1, org.openide.filesystems > 8.10.1, com.d
  ecouplink.decouplink > 1.0, org.openide.util > 8.37.1, dk.sdu.mmmi.cb
- se.Common > 1.0, org.openide.windows > 6.70.1, dk.sdu.mmmi.cbse.Move 
- > 1.0, dk.sdu.mmmi.cbse.Player > 1.0, dk.sdu.mmmi.cbse.Asteroids > 1.
- 0, dk.sdu.mmmi.cbse.Collision > 1.0, dk.sdu.mmmi.cbse.Enemy > 1.0, dk
- .sdu.mmmi.cbse.Expiration > 1.0
+ se.Common > 1.0, org.openide.windows > 6.70.1, dk.sdu.mmmi.cbse.Silen
+ tUpdate > 1.0, dk.sdu.mmmi.cbse.Assets > 1.0
 
