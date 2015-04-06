@@ -1,0 +1,25 @@
+Manifest-Version: null
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20150406
+OpenIDE-Module-Build-Version: 201504061558
+OpenIDE-Module: dk.sdu.mmmi.cbse.Asteroids
+OpenIDE-Module-Public-Packages: -
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: dk.sdu.mmmi.cbse
+OpenIDE-Module-Name: Asteroids
+OpenIDE-Module-Short-Description: Cross platform game library for N≥
+ 4 platforms.
+OpenIDE-Module-Long-Description: Cross platform game library for N≥4
+  platforms.
+X-Class-Path: ext/dk.sdu.mmmi.cbse.Asteroids/dk-sdu-mmmi-cbse/Project1
+ a-core.jar ext/dk.sdu.mmmi.cbse.Asteroids/com-googlecode-playn/playn-
+ core.jar ext/dk.sdu.mmmi.cbse.Asteroids/com-samskivert/pythagoras.jar
+  ext/dk.sdu.mmmi.cbse.Asteroids/com-googlecode-playn/playn-jbox2d.jar
+  ext/dk.sdu.mmmi.cbse.Asteroids/org-jbox2d/jbox2d-library.jar
+Maven-Class-Path: dk.sdu.mmmi.cbse:Project1a-core:1.0-SNAPSHOT com.goo
+ glecode.playn:playn-core:1.8.5 com.samskivert:pythagoras:1.3.2 com.go
+ oglecode.playn:playn-jbox2d:1.8.5 org.jbox2d:jbox2d-library:2.2.1.1
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.23.1, com.decouplink.decouplink > 1.0, dk.sdu.mmmi.cbse.Commo
+ n > 1.0, org.openide.util.lookup > 8.24.1
+

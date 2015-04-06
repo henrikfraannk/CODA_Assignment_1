@@ -108,6 +108,11 @@
         <module>Assets</module>
         <module>SilentUpdate</module>
         <module>Player</module>
+        <module>Move</module>
+        <module>Asteroids</module>
+        <module>Collision</module>
+        <module>Enemy</module>
+        <module>Expiration</module>
     </modules>
 
     <properties>

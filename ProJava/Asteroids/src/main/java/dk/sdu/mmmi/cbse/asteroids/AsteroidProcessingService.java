@@ -81,8 +81,6 @@ public class AsteroidProcessingService implements IEntityProcessingService{
                         context(e).one(Scale.class).x = scale.x;
                         context(e).one(Scale.class).y = scale.y;
                         context(e).one(Health.class).addDamage(3);
-                        context(e).one(Velocity.class).vectorX = velocity.vectorX;
-                        context(e).one(Velocity.class).vectorY = velocity.vectorY;
                     }
 
                     context(entity).remove(behaviour);

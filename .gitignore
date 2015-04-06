@@ -133,3 +133,6 @@ ProNetbeans/SilentUpdate/.jrebel_disabled
 ProJava/rebel.xml
 
 ProNetbeans/Player/.jrebel_disabled
+/ProNetbeans/Collision/target/
+/ProNetbeans/Enemy/target/
+/ProNetbeans/Expiration/target/
