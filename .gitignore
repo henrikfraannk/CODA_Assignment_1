@@ -136,3 +136,15 @@ ProNetbeans/Player/.jrebel_disabled
 /ProNetbeans/Collision/target/
 /ProNetbeans/Enemy/target/
 /ProNetbeans/Expiration/target/
+/ProSpring/com.decouplink/target/
+/ProSpring/common/target/
+/ProSpring/player/target/
+/ProSpring/updater/target/
+/ProSpring/assets/target/
+/ProSpring/Enemy/target/
+/ProSpring/core/target/
+/ProSpring/java/target/
+/ProSpring/Asteroids/target/
+/ProSpring/Move/target/
+/ProSpring/Expiration/target/
+/ProSpring/Collision/target/

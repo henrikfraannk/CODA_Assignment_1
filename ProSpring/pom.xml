@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.googlecode.playn</groupId>
+        <artifactId>playn-project</artifactId>
+        <version>1.8.5</version>
+    </parent>
+    <groupId>dk.sdu.mmmi.cbse</groupId>
+    <artifactId>prospring</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>ProSpring</name>
+    <repositories>
+        <!--
+        Repository hosting NetBeans modules, especially APIs.
+        Versions are based on IDE releases, e.g.: RELEASE691
+        To create your own repository, use: nbm:populate-repository
+        -->
+        <repository>
+            <id>netbeans</id>
+            <name>NetBeans</name>
+            <url>http://bits.netbeans.org/maven2/</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.netbeans.api</groupId>
+                <artifactId>org-openide-util-lookup</artifactId>
+                <version>RELEASE74</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.decouplink</groupId>
+                <artifactId>decouplink</artifactId>
+                <version>1.0</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <modules>
+        <module>java</module>
+        <module>assets</module>
+        <module>core</module>
+        <module>com.decouplink</module>
+        <module>common</module>
+        <module>player</module>
+        <module>updater</module>
+        <module>Enemy</module>
+        <module>Asteroids</module>
+        <module>Collision</module>
+        <module>Move</module>
+        <module>Expiration</module>
+    </modules>
+</project>
